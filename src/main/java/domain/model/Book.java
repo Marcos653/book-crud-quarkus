@@ -7,6 +7,7 @@ import jakarta.persistence.*;
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
 public class Book {
 
     @Id

@@ -56,6 +56,7 @@ public class BookService implements IBookService {
     @Override
     @Transactional
     public void delete(Long id) {
+        getBookById(id);
         repository.delete(id);
     }
 
